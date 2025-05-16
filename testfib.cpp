@@ -30,7 +30,7 @@ int fib2(int n)
 
     if(fibonacci[n])
     {
-        return fibonacci[n];//如果等于零代表还没算过
+        return fibonacci[n];//如果等于零代表还没算过/
     }
 
     fibonacci[n] = fib(n-1)+fib(n-2);
